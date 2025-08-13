@@ -4,7 +4,11 @@ export default function Home() {
   return (
     <div className="App">
       <h1>Hello World!</h1>
-
+      
+      const myFirstElement = <h1>Hello React!</h1>
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(myFirstElement);
+      
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
